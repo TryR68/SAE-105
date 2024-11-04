@@ -1,0 +1,18 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+.bienvenue{
+    min-height: 100vh;
+}
+
+.presentation{
+    min-height: 100vh ;
+}
+
+.contact{
+    min-height: 100vh ;
+}
