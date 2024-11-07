@@ -4,14 +4,16 @@ html{
 
 body{
     margin: 0px;
+    
+    
 }
 
-
+/* Mise en forme du header */
 header{
-    background-color :blue;
     color: white; 
     font-family: Arial, Helvetica, sans-serif;
-    margin: 18px;
+    margin-right: 18px;
+    margin-left: 18px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -37,24 +39,41 @@ a{
 
 
 
+/* Mise en forme de la premiere partie */
+
+
 .bienvenue{
     min-height: 100vh;
 }
 
-.lien-sae{
-    border: solid 1px grey;
+
+.back-presentation{
+    background-image: url(https://pre-signed-firefly-prod.s3-accelerate.amazonaws.com/images/108861b8-a522-487b-98c3-63a268275667?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDA3TX66CSNORXF4%2F20241107%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241107T172900Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=8e8c3a3537eedc7d2e943253cec6a2b7595965dbe5a10e9268d6b449d0f7560d);
+    background-size: cover; /* L'image couvre toute la page */
+    background-position: center; /* Centrer l'image */
+    background-repeat: no-repeat; /* Ne pas répéter l'image */
+    background-attachment: fixed; /* L'image reste fixe lors du défilement */
+    
+
+    }
+.centre-bienvenue{
+    background-color: red;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 
-
-
-
-
+/* Mise en forme de la deuxieme partie */
 
 .presentation{
     min-height: 100vh ;
 }
 
+
+/* Mise en forme de la troisième partie partie */
 .contact{
     min-height: 100vh ;
 }
