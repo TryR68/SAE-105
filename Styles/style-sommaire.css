@@ -12,4 +12,7 @@ a{
     text-decoration: none;
     color: white;
 }
-
+img {
+    width: 35%;
+    height: auto;
+  }
