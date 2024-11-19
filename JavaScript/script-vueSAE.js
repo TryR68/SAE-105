@@ -8,8 +8,9 @@ let competences = SAE[num_SAE].compétences;
 let description = SAE[num_SAE].description;
 
 
-infos_sae += "<div class='case'><h2>" + num_SAE + "</h2><h3>" + titre + "</h3><p>" + description+ "</p>"  + competences+ AC + ressources+"</a></div>"
+infos_sae += "<div class='case'><h2>" + num_SAE + "</h2><h3>" + titre + "</h3><p>" + description+ "</p>"  + competences+"</a></div>"
 
 console.log(infos_sae)
+
 
 document.querySelector("main").innerHTML = infos_sae;
