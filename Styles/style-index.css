@@ -16,17 +16,19 @@ header{
     margin-left: 18px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     
 }
 
 img {
-    width: 35%;
-    height: auto;
+    width: 100%
   }
 
-
+.header-left{
+    width: fit-content;
+}
 .header-right{
+    width: fit-content;
     display: flex;
     align-items: center;
     gap: 20px;
@@ -47,8 +49,8 @@ a{
 
 .back-presentation{
     min-height: 100vh;
-    background-image: url(../Images/fondnoir.jpg);
-    background-color: black;
+    /* background-image: url(../Images/fondnoir.jpg); */
+    background-color: pink;
     background-size: cover; /* L'image couvre toute la page */
     background-position: center; /* Centrer l'image */
     background-repeat: no-repeat; /* Ne pas répéter l'image */
