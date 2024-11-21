@@ -22,7 +22,7 @@ description_sae += "<div class = 'description_sae'><p>" + description + "</p><di
 
 
 // Ajouter les apprentissages critiques
-apprentissages_sae += "<h3>Apprentissages critiques :</h>";
+apprentissages_sae += "<h3>Apprentissages critiques :</h3>";
 for (let num_ac in apprentissages_critique) {
   apprentissages_sae += "<div class = apprentissages_sae>" + apprentissages_critique[num_ac] + "</div>";
 }

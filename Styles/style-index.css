@@ -4,10 +4,8 @@ html{
 
 body{
     margin: 0px;
-    color: white; 
-    font-family: Arial, Helvetica, sans-serif;
-    
-    
+    color: rgb(255, 255, 255); 
+    font-family: Arial, Helvetica, sans-serif;   
 }
 
 /* Mise en forme du header */
@@ -16,8 +14,13 @@ header{
     margin-left: 18px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+ 
     
+}
+
+.logo{
+    width: 15%;
 }
 
 img {
@@ -35,6 +38,14 @@ img {
     margin-right: 10px;
 }
 
+
+.header-center{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
 a{
     text-decoration: none;
     color: white;
@@ -50,7 +61,7 @@ a{
 .back-presentation{
     min-height: 100vh;
     /* background-image: url(../Images/fondnoir.jpg); */
-    background-color: pink;
+    background-color: rgb(73, 25, 25);
     background-size: cover; /* L'image couvre toute la page */
     background-position: center; /* Centrer l'image */
     background-repeat: no-repeat; /* Ne pas répéter l'image */
@@ -196,7 +207,6 @@ a>.lien-sae{
 
 /* Mise en forme de la troisième partie partie */
 .contact{
-    min-height: 100vh ;
     background-color: #CB3688;
     background-color: rgb(75, 75, 75);
 }

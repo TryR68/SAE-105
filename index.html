@@ -9,13 +9,13 @@
 <body>
     <div class="back-presentation">
         <header>
-            <div class="header-left">
-                <a href="index.html"><img src="Images/logo.png" alt="logo"></a>
-            </div>
+            
+            <div class="logo"><a href="index.html"><img src="Images/logo.png" alt="logo"></a></div>
+            
             <div class="header-center">
                 <a href="index.html">Accueil</a>
                 <a href="sommaire-sae.html">Travaux</a>
-                <a href="#Présentation">Présenatation</a>
+                <a href="#Présentation">Présentation</a>
                 <a href="#Contact">Contact</a>
                 
             </div>
@@ -61,59 +61,54 @@
                     </div>
                 </div>
             <div class="photo">
-                <div class="pp"><img src="Images/profil.png" alt="Photo de moi">
+                <div class="pp"><img src="Images/profil.png" alt="Photo de moi"></div>
             </div>
-            </div>
-            </div>
-
-
-
         </div>
-
-        <div class="contact" id="Contact">
-
-                <h2>Contactez-moi</h2>
-                
-                <!-- Formulaire de contact -->
-                <form action="envoyer.php" method="POST">
-                    <label for="name">Nom</label>
-                    <input type="text" id="name" name="name" required>
-            
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required>
-                        
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" required></textarea>
-            
-                    <button type="submit">Envoyer</button>
-                </form>
-            
-                <!-- Coordonnées -->
-                <div class="contact-info">
-                    <p><strong>Téléphone :</strong> +33 1 23 45 67 89</p>
-                    <p><strong>Adresse :</strong> 123 Rue de Exemple, 75001 Paris, France</p>
-                </div>
-            
-                <!-- Liens sociaux -->
-                <div class="social-links">
-                    <a href="https://www.linkedin.com/in/tonprofil" target="_blank"><img src="linkedin-icon.png" alt="LinkedIn"></a>
-                    <a href="https://github.com/tonprofil" target="_blank"><img src="github-icon.png" alt="GitHub"></a>
-                </div>
-            
-            </section>
-
-
-
-        </div>
-
-
+    </div>
     </main>
 
 
     <footer>
-        <div>Trystan</div>
-        <div>ROUSSEL</div>
-        <div>2024</div>
+
+        <div class="contact" id="Contact">
+
+            <h2>Contactez-moi</h2>
+                
+                
+            <form action="envoyer.php" method="POST">
+                <label>Nom
+                    <input type="text" name="name" required>
+                </label>
+            
+                <label>Email
+                    <input type="email"  name="email" required>
+                </label>
+                        
+                <label>Message
+                    <textarea id="message" name="message" required></textarea>
+                </label>
+            
+                <button type="submit">Envoyer</button>
+            </form>
+            
+                
+            <div class="contact-info">
+                <p>Téléphone : </p>
+                <p>Adresse :</p>
+                <p>E-mail : trystan.roussel@uha.fr</p>
+            </div>
+            
+    
+            <div class="resaux">
+                <a href=""><img src="" alt="LinkedIn"></a>
+                <a href="https://github.com/TryR68" ><img src="" alt="GitHub"></a>
+            </div>
+
+        
+            <div>Trystan</div>
+            <div>ROUSSEL</div>
+            <div>2024</div>
+        </div>
     </footer>
 
 <script src="JavaScript/script-index.js"></script>
