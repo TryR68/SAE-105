@@ -60,7 +60,7 @@ a{
 
 .back-presentation{
     min-height: 100vh;
-    /* background-image: url(../Images/fondnoir.jpg); */
+    background-image: url(../Images/Feuilles.png);
     background-color: rgb(73, 25, 25);
     background-size: cover; /* L'image couvre toute la page */
     background-position: center; /* Centrer l'image */
@@ -83,7 +83,6 @@ h1{
     font-size: 70px;
     margin-top: 0px;
 }
-
 
 a>.lien-sae{
     color: rgb(0, 0, 0);
@@ -110,20 +109,21 @@ a>.lien-sae{
 
 
 
-
-
-
-
-
-
-
-
 /* Mise en forme de la deuxieme partie */
 
 .presentation{
     min-height: 100vh ;
-    background-color: #392674;
-    background-color: #d9d9d9;
+    background-image: url(../Images/Feuilles2.png);
+    background-size: cover;
+    background-position: center; /* Centrer l'image */
+    background-repeat: no-repeat; /* Ne pas répéter l'image */
+    
+
+
+
+
+    /* background-color: #392674;
+    background-color: #d9d9d9; */
 }
 
 
@@ -134,12 +134,8 @@ a>.lien-sae{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: #ffffff; /* Fond blanc */
-    border-radius: 8px; /* Bord arrondi pour l'ensemble */
+    background-color: #000000; /* Fond blanc */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
-    padding: 20px;
-    width: 100%;
-    max-height: 100vh;
     overflow: hidden; /* Eviter le dépassement */
 }
 
@@ -209,4 +205,5 @@ a>.lien-sae{
 .contact{
     background-color: #CB3688;
     background-color: rgb(75, 75, 75);
+    background-color: #392674;;
 }
