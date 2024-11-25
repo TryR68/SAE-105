@@ -5,7 +5,13 @@ html{
 body{
     margin: 0px;
     color: rgb(255, 255, 255); 
-    font-family: Arial, Helvetica, sans-serif;   
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../Images/Feuilles.png);
+    /* background-color: rgb(73, 25, 25); */
+    background-size: cover; /* L'image couvre toute la page */
+    background-position: center; /* Centrer l'image */
+    background-repeat: no-repeat; /* Ne pas répéter l'image */
+    background-attachment: fixed; /* L'image reste fixe lors du défilement */
 }
 
 /* Mise en forme du header */
@@ -60,12 +66,6 @@ a{
 
 .back-presentation{
     min-height: 100vh;
-    background-image: url(../Images/Feuilles.png);
-    background-color: rgb(73, 25, 25);
-    background-size: cover; /* L'image couvre toute la page */
-    background-position: center; /* Centrer l'image */
-    background-repeat: no-repeat; /* Ne pas répéter l'image */
-    background-attachment: fixed; /* L'image reste fixe lors du défilement */
 }
 .centre-bienvenue{
     width: fit-content;
@@ -109,35 +109,21 @@ a>.lien-sae{
 
 
 
+
+
+
+
+
+
+
 /* Mise en forme de la deuxieme partie */
 
 .presentation{
     min-height: 100vh ;
-    background-image: url(../Images/Feuilles2.png);
-    background-size: cover;
-    background-position: center; /* Centrer l'image */
-    background-repeat: no-repeat; /* Ne pas répéter l'image */
-    
-
-
-
-
-    /* background-color: #392674;
-    background-color: #d9d9d9; */
-}
-
-
-
-/* Conteneur principal */
-.presentation {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #000000; /* Fond blanc */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
-    overflow: hidden; /* Eviter le dépassement */
+
 }
+
 
 /* Photo de profil */
 .photo {
@@ -152,25 +138,11 @@ a>.lien-sae{
     overflow: hidden;
     border: 7px solid #000000;
 }
-
 .pp img {
     width: 100%;
     height: 100%;
 }
 
-
-
-/* Section des logiciels */
-.presentation-appli {
-    margin-top: 30px;
-}
-
-/* Titre de la section des logiciels */
-.presentation-appli p {
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #333;
-}
 
 /* Conteneur des images des logiciels */
 .images-logiciels {
@@ -178,25 +150,28 @@ a>.lien-sae{
     flex-wrap: wrap;
     gap: 15px;
     margin-top: 15px;
+    background-color: bisque;
+    padding: 24px;
+    border-radius: 12px;
+    border: 2px solid #000000;
 }
 
 /* Styles pour chaque image de logiciel */
 .images {
-    width: 60px; /* Taille moyenne des logos */
+    width: 60px;
     height: 60px;
-    border: 2px solid #3498db; /* Contour de la couleur choisie */
+    border: 2px solid #000000; 
     border-radius: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fff;
+    background-color: #ffffff;
     padding: 5px;
 }
 
 .images img {
     width: 100%;
     height: 100%;
-    object-fit: contain;
 }
 
 
