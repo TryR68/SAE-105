@@ -118,7 +118,8 @@ a>.lien-sae{
     align-items: center;
 }
 .zone{
-    background-color: rgba(57, 38, 116, 0.7); 
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.2); 
     display: flex; 
     justify-content: space-between; 
     align-items: center;
@@ -132,13 +133,19 @@ a>.lien-sae{
     color: #ffffff; 
     font-size: 32px;
     font-weight: bolder;
-    margin-left: 50px;
+    margin-left: 50px;    
 }
 
 
 /* Section des logiciels */
 .presentation-appli {
     margin-top: 20px; /* Espace entre le texte principal et la liste des logiciels */
+    background-color: #FFD166;
+    color: #000000;
+    padding: 20px; 
+    border-radius: 16px;
+    border: solid black 4px;
+
 }
 
 .images-logiciels {
@@ -146,6 +153,12 @@ a>.lien-sae{
     gap: 15px; /* Espacement entre les images */
     flex-wrap: wrap; /* Permet de faire passer les images à la ligne si nécessaire */
     justify-content: flex-end; /* Aligner les images à gauche */
+    background-color: white;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 16px;
+    border: solid black 4px;
+
 }
 
 .images img {
