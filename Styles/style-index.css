@@ -108,77 +108,72 @@ a>.lien-sae{
 
 
 
-
-
-
-
-
-
-
-
 /* Mise en forme de la deuxieme partie */
 
-.presentation{
-    min-height: 100vh ;
-    display: flex;
-
+/* Style pour la présentation */
+.presentation {
+    min-height: 100vh;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+}
+.zone{
+    background-color: rgba(57, 38, 116, 0.7); 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+/* Section texte */
+.texte {
+    width: 50%; 
+    font-family: Arial, sans-serif; 
+    color: #ffffff; 
+    font-size: 32px;
+    font-weight: bolder;
+    margin-left: 50px;
 }
 
 
-/* Photo de profil */
-.photo {
-    display: flex;
-    justify-content: flex-end;
+/* Section des logiciels */
+.presentation-appli {
+    margin-top: 20px; /* Espace entre le texte principal et la liste des logiciels */
 }
 
-.pp {
-    width: 25%;
-    height: 25%;
-    border-radius: 50%;
-    overflow: hidden;
-    border: 7px solid #000000;
-}
-.pp img {
-    width: 100%;
-    height: 100%;
-}
-
-
-/* Conteneur des images des logiciels */
 .images-logiciels {
     display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    margin-top: 15px;
-    background-color: bisque;
-    padding: 24px;
-    border-radius: 12px;
-    border: 2px solid #000000;
-}
-
-/* Styles pour chaque image de logiciel */
-.images {
-    width: 60px;
-    height: 60px;
-    border: 2px solid #000000; 
-    border-radius: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ffffff;
-    padding: 5px;
+    gap: 15px; /* Espacement entre les images */
+    flex-wrap: wrap; /* Permet de faire passer les images à la ligne si nécessaire */
+    justify-content: flex-end; /* Aligner les images à gauche */
 }
 
 .images img {
-    width: 100%;
-    height: 100%;
+    width: 80px; /* Taille fixe des logos des logiciels */
+    height: auto;
+    border-radius: 15px; /* Bord arrondi pour les logos */
 }
 
+/* Section photo */
+.photo {
+    width: 40%; /* Largeur de la section photo */
+    display: flex;
+    justify-content: center; /* Centrer la photo */
+    align-items: center; /* Centrer verticalement */
+}
+
+/* Photo de profil */
+.pp {
+    width: 50%; /* Taille fixe de la photo de profil */
+    height:50%;
+    border-radius: 50%; /* Arrondir la photo pour la mettre en cercle */
+    overflow: hidden; /* Assure que l'image reste dans le cercle */
+}
 
 
 /* Mise en forme de la troisième partie partie */
 .contact{
     background-color: #CB3688;
     background-color: rgb(75, 75, 75);
-    background-color: #392674;;
+    background-color: #392674;
 }
