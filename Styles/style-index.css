@@ -186,7 +186,6 @@ a>.lien-sae{
 
 /* Mise en forme de la troisième partie partie */
 .contact{
-    background-color: #CB3688;
-    background-color: rgb(75, 75, 75);
-    background-color: #392674;
+    background-image: linear-gradient(#CB3688, #392674);
+
 }
