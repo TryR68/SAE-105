@@ -65,7 +65,7 @@ a{
 
 
 .back-presentation{
-    min-height: 70vh;
+    min-height: 100vh;
 }
 .centre-bienvenue{
     width: fit-content;
@@ -141,7 +141,7 @@ a>.lien-sae{
 
 /* Section des logiciels */
 .presentation-appli {
-    margin-top: 20px; /* Espace entre le texte principal et la liste des logiciels */
+    margin-top: 20px; 
     background-color: #524186;
     color: #ffffff;
     padding: 20px; 
@@ -152,9 +152,9 @@ a>.lien-sae{
 
 .images-logiciels {
     display: flex;
-    gap: 15px; /* Espacement entre les images */
-    flex-wrap: wrap; /* Permet de faire passer les images à la ligne si nécessaire */
-    justify-content: flex-end; /* Aligner les images à gauche */
+    gap: 15px; 
+    flex-wrap: wrap;
+    justify-content: flex-end;
     background-color: white;
     width: fit-content;
     padding: 20px;
@@ -164,32 +164,91 @@ a>.lien-sae{
 }
 
 .images img {
-    width: 80px; /* Taille fixe des logos des logiciels */
+    width: 80px;
     height: auto;
-    border-radius: 15px; /* Bord arrondi pour les logos */
+    border-radius: 15px;
 }
 
 /* Section photo */
 .photo {
-    width: 40%; /* Largeur de la section photo */
+    width: 40%;
     display: flex;
-    justify-content: center; /* Centrer la photo */
-    align-items: center; /* Centrer verticalement */
+    justify-content: center; 
+    align-items: center; 
 }
 
 /* Photo de profil */
 .pp {
-    width: 50%; /* Taille fixe de la photo de profil */
+    width: 50%;
     height:50%;
-    border-radius: 50%; /* Arrondir la photo pour la mettre en cercle */
-    overflow: hidden; /* Assure que l'image reste dans le cercle */
+    border-radius: 50%;
+    overflow: hidden; 
 }
 
 
 /* Mise en forme de la troisième partie partie */
-.contact{
-    /* background-image: linear-gradient(#CB3688, #392674); */
+
+
+footer {
     background-color: rgba(29, 24, 43, 0.9) ;
-
-
+    padding: 40px;
 }
+
+.footer-parent {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact label {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    color: #BDC3C7;
+}
+
+.contact input{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contact textarea{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contact button {
+    background-color: #524186;
+    color: #FFFFFF;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact button:hover {
+    background-color: #CB3688;
+}
+
+.resaux {
+    text-align: center;
+}
+
+
+.credit {
+    text-align: center;
+    color: #BDC3C7;
+    font-size: 14px;
+}
+
+
+/* background-image: linear-gradient(#CB3688, #392674); */
