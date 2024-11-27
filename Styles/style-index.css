@@ -216,13 +216,19 @@ a>.lien-sae{
 .zone2{
     width: 40%;
     color: white;
-
 }
+
+
+
 
 .resaux{
     height: 40%;
     background-color:  rgba(0, 0, 0, 0.2);
     border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
 }
 
 
