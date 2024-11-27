@@ -112,7 +112,7 @@ a>.lien-sae{
 
 /* Style pour la présentation */
 .presentation {
-    min-height: 120vh;
+    min-height: 100vh;
     display: flex; 
     justify-content: space-between; 
     align-items: center;
@@ -186,19 +186,75 @@ a>.lien-sae{
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Mise en forme de la troisième partie partie */
 
-
-footer {
-    background-color: rgba(29, 24, 43, 0.9) ;
-    padding: 40px;
-}
-
-.footer-parent {
+.parents-contact{
+    min-height: 100vh;
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    justify-content: space-around;
+    
 }
+.zone1{
+    width: 40%;
+     
+}
+
+
+.zone2{
+    width: 40%;
+    color: white;
+
+}
+
+.resaux{
+    height: 40%;
+    background-color:  rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+}
+
+
+.contact-info{
+    height: 40%;
+    background-color:  rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -207,6 +263,10 @@ footer {
     flex-direction: column;
     gap: 10px;
 }
+
+
+
+
 
 .contact label {
     display: flex;
@@ -239,10 +299,17 @@ footer {
     background-color: #CB3688;
 }
 
-.resaux {
-    text-align: center;
+/* Mise en forme du footer */
+footer {
+    background-color: rgba(29, 24, 43, 0.9) ;
+    padding: 40px;
 }
 
+.footer-parent {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
 
 .credit {
     text-align: center;
