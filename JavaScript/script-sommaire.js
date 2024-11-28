@@ -13,5 +13,5 @@ for (let key in SAE) {
 
 }
 
-  document.querySelector("main").innerHTML = differentes_sae
+  document.querySelector("#cases-dynamiques").innerHTML = differentes_sae
 
