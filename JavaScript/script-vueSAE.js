@@ -24,7 +24,7 @@ description_sae += "<div class = 'description_sae'><p>" + description + "</p><di
 // Ajouter les apprentissages critiques
 apprentissages_sae += "<h3>Apprentissages critiques :</h3>";
 for (let num_ac in apprentissages_critique) {
-  apprentissages_sae += "<div class = apprentissages_sae>" + apprentissages_critique[num_ac] + "</div>";
+  apprentissages_sae += "<div class = apprentissages_sae>"+ num_ac + " : "+ apprentissages_critique[num_ac] + "</div>";
 }
 
 
@@ -32,7 +32,7 @@ for (let num_ac in apprentissages_critique) {
 // Ajouter les ressources nécessaires
 ressources_sae += "<h3>Ressources</h3>";
 for (let num_ress in ressources) {
-  ressources_sae += "<div class = ressources_sae>" + ressources[num_ress] + "</div>";
+  ressources_sae += "<div class = ressources_sae>" +num_ress + " : "+ ressources[num_ress] + "</div>";
 }
 
 
