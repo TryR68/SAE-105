@@ -30,7 +30,7 @@ for (let num_ac in apprentissages_critique) {
 
 
 // Ajouter les ressources nécessaires
-ressources_sae += "<h3>Ressources</h3>";
+ressources_sae += "<h3>Ressources :</h3>";
 for (let num_ress in ressources) {
   ressources_sae += "<div class = ressources_sae>" +num_ress + " : "+ ressources[num_ress] + "</div>";
 }
