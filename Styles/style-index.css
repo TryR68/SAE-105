@@ -197,8 +197,8 @@ a>.lien-sae{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column; /* Arrange les éléments verticalement */
-    text-align: center; /* Centre le texte des enfants */
+    flex-direction: column;
+    text-align: center;
     background-color:  rgba(0, 0, 0, 0.2);
     border-radius: 40px;
     width: 100%;
@@ -264,6 +264,8 @@ a>.lien-sae{
 .contact button:hover {
     background-color: #CB3688;
 }
+
+
 /* Mise en forme du footer */
 footer {
     background-color: rgba(29, 24, 43, 0.9) ;
