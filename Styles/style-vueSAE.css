@@ -60,6 +60,10 @@ a {
     font-weight: bolder;
 }
 
+header a:hover {
+    color: #CB3688; /* Changement de couleur au survol */
+}
+
 /* mise en forme du main */
 
 .lien{
@@ -80,7 +84,16 @@ a {
     margin-left: auto;
     margin-right: auto;
     color: black;
+
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
+
+
+.lien a:hover {
+    transform: scale(1.1); /* Grossissement au survol */
+    background-color: #e5e5e5; /* Couleur plus claire au survol */
+}
+
 main>a {
     display: flex;
     align-items: center;

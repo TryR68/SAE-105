@@ -88,8 +88,12 @@ a>.lien-sae{
     border-radius: 48px;
     margin-left: auto;
     margin-right: auto;
+
+
+    transition: background-color 0.3s ease,  box-shadow 0.3s ease;
 }
 .lien-sae:hover{
+    
     background-color: white;
     box-shadow: 0 0 200px rgba(255, 255, 255, 0.6);
 }
