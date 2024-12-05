@@ -151,21 +151,31 @@ main>a {
 
 
 
-
+#ressourcesSAE{
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5 );
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 
 
 .ressources_sae {
-    font-size: 18px;
-    color: white;
-    margin: 10px 0;
-    padding: 8px;
     background-color: #524186;
-    /* Vert lumineux semi-transparent */
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+    padding: 8px;
     border-radius: 8px;
     text-align: center;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
-    /* Ombre subtile */
+    height: auto;
+    width: 20%;
 }
 
 
