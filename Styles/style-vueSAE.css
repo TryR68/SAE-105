@@ -169,6 +169,10 @@ main>a {
     height: auto;
     width: auto;
 }
+.apprentissages_sae:hover{
+    background-color:  #524186;
+}
+
 #ressourcesSAE{
     font-size: 20px;
     color: white;
