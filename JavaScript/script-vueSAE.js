@@ -27,7 +27,7 @@ for (let num_ac in apprentissages_critique) {
   apprentissages_sae += " <a href='pdf/"+ num_SAE +".pdf'><div class = apprentissages_sae>"+ num_ac + " : "+ apprentissages_critique[num_ac] + "</div></a>";
 }
 
-
+console.log
 
 // Ajouter les ressources nécessaires
 ressources_sae += "<h3>Ressources :</h3>";
